@@ -8,22 +8,24 @@ using Android.Views;
 
 namespace CityTower_Android_Client
 {
-	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
-	public class MainActivity : AppCompatActivity
-	{
+	[Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@mipmap/icon", Theme = "@style/Theme.AppCompat.Light.DarkActionBar")]
+	public class MainActivity : Activity
+    {
 
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
-			base.OnCreate(savedInstanceState);
+		    base.OnCreate(savedInstanceState);
 
-			SetContentView(Resource.Layout.activity_main);
+		    // Set our view from the "main" layout resource
+		    SetContentView(Resource.Layout.content_main);
 
-			Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
-            SetSupportActionBar(toolbar);
-
-			FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
-            fab.Click += FabOnClick;
-		}
+		    var textView = FindViewById<TextView>(Resource.Id.textView);
+		    var bottomBar = FindViewById<BottomNavigationView>(Resource.Id.bottomNavigationView);
+		    textView.Text = "All";
+		    bottomBar.NavigationItemSelected += (s, a) => {
+		        textView.Text = a.Item.TitleFormatted.ToString();
+		    };
+        }
 
 		public override bool OnCreateOptionsMenu(IMenu menu)
         {
