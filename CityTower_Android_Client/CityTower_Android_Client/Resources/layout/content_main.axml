@@ -6,11 +6,24 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main">
-
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Hello World!" />
-
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="All"
+        android:textAlignment="center"
+        android:gravity="center" />
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        app:elevation="6dp"
+        app:menu="@menu/bottom_bar_menu" />
 </RelativeLayout>
