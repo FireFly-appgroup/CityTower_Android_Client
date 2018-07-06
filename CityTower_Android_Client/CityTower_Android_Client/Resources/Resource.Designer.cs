@@ -2230,26 +2230,26 @@ namespace CityTower_Android_Client
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02007f
-			public const int avd_hide_password_1 = 2130837631;
+			// aapt resource value: 0x7f020088
+			public const int avd_hide_password_1 = 2130837640;
 			
-			// aapt resource value: 0x7f020080
-			public const int avd_hide_password_2 = 2130837632;
+			// aapt resource value: 0x7f020089
+			public const int avd_hide_password_2 = 2130837641;
 			
-			// aapt resource value: 0x7f020081
-			public const int avd_hide_password_3 = 2130837633;
+			// aapt resource value: 0x7f02008a
+			public const int avd_hide_password_3 = 2130837642;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020082
-			public const int avd_show_password_1 = 2130837634;
+			// aapt resource value: 0x7f02008b
+			public const int avd_show_password_1 = 2130837643;
 			
-			// aapt resource value: 0x7f020083
-			public const int avd_show_password_2 = 2130837635;
+			// aapt resource value: 0x7f02008c
+			public const int avd_show_password_2 = 2130837644;
 			
-			// aapt resource value: 0x7f020084
-			public const int avd_show_password_3 = 2130837636;
+			// aapt resource value: 0x7f02008d
+			public const int avd_show_password_3 = 2130837645;
 			
 			// aapt resource value: 0x7f020055
 			public const int baseline_build_24 = 2130837589;
@@ -2330,52 +2330,79 @@ namespace CityTower_Android_Client
 			public const int design_snackbar_background = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_home_white_24dp = 2130837615;
+			public const int ic_arrow_back = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int navigation_empty_icon = 2130837616;
+			public const int ic_chevron_left = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int notification_action_background = 2130837617;
+			public const int ic_home_white_24dp = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int notification_bg = 2130837618;
+			public const int ic_key = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int notification_bg_low = 2130837619;
+			public const int ic_lock = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int notification_bg_low_normal = 2130837620;
+			public const int ic_person = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int notification_bg_low_pressed = 2130837621;
+			public const int ic_right_arrow = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int notification_bg_normal = 2130837622;
+			public const int login_bottom = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int notification_bg_normal_pressed = 2130837623;
+			public const int login_top = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int notification_icon_background = 2130837624;
-			
-			// aapt resource value: 0x7f02007d
-			public const int notification_template_icon_bg = 2130837629;
-			
-			// aapt resource value: 0x7f02007e
-			public const int notification_template_icon_low_bg = 2130837630;
+			public const int main_bg = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int notification_tile_bg = 2130837625;
+			public const int navigation_empty_icon = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int notify_panel_notification_icon_bg = 2130837626;
+			public const int notification_action_background = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int tooltip_frame_dark = 2130837627;
+			public const int notification_bg = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int tooltip_frame_light = 2130837628;
+			public const int notification_bg_low = 2130837628;
+			
+			// aapt resource value: 0x7f02007d
+			public const int notification_bg_low_normal = 2130837629;
+			
+			// aapt resource value: 0x7f02007e
+			public const int notification_bg_low_pressed = 2130837630;
+			
+			// aapt resource value: 0x7f02007f
+			public const int notification_bg_normal = 2130837631;
+			
+			// aapt resource value: 0x7f020080
+			public const int notification_bg_normal_pressed = 2130837632;
+			
+			// aapt resource value: 0x7f020081
+			public const int notification_icon_background = 2130837633;
+			
+			// aapt resource value: 0x7f020086
+			public const int notification_template_icon_bg = 2130837638;
+			
+			// aapt resource value: 0x7f020087
+			public const int notification_template_icon_low_bg = 2130837639;
+			
+			// aapt resource value: 0x7f020082
+			public const int notification_tile_bg = 2130837634;
+			
+			// aapt resource value: 0x7f020083
+			public const int notify_panel_notification_icon_bg = 2130837635;
+			
+			// aapt resource value: 0x7f020084
+			public const int tooltip_frame_dark = 2130837636;
+			
+			// aapt resource value: 0x7f020085
+			public const int tooltip_frame_light = 2130837637;
 			
 			static Drawable()
 			{
@@ -2399,17 +2426,17 @@ namespace CityTower_Android_Client
 			// aapt resource value: 0x7f080034
 			public const int FUNCTION = 2131230772;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int Home = 2131230899;
+			// aapt resource value: 0x7f0800b6
+			public const int Home = 2131230902;
 			
 			// aapt resource value: 0x7f080035
 			public const int META = 2131230773;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int Options = 2131230903;
+			// aapt resource value: 0x7f0800ba
+			public const int Options = 2131230906;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int People = 2131230901;
+			// aapt resource value: 0x7f0800b8
+			public const int People = 2131230904;
 			
 			// aapt resource value: 0x7f080036
 			public const int SHIFT = 2131230774;
@@ -2417,11 +2444,11 @@ namespace CityTower_Android_Client
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int Shop = 2131230902;
+			// aapt resource value: 0x7f0800b9
+			public const int Shop = 2131230905;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int Trade = 2131230900;
+			// aapt resource value: 0x7f0800b7
+			public const int Trade = 2131230903;
 			
 			// aapt resource value: 0x7f0800a0
 			public const int action0 = 2131230880;
@@ -2474,8 +2501,8 @@ namespace CityTower_Android_Client
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int action_settings = 2131230904;
+			// aapt resource value: 0x7f0800bb
+			public const int action_settings = 2131230907;
 			
 			// aapt resource value: 0x7f08009f
 			public const int action_text = 2131230879;
@@ -2515,6 +2542,9 @@ namespace CityTower_Android_Client
 			
 			// aapt resource value: 0x7f08008e
 			public const int bottomNavigationView = 2131230862;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int btnLogin = 2131230898;
 			
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
@@ -2675,14 +2705,14 @@ namespace CityTower_Android_Client
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int masked = 2131230898;
+			// aapt resource value: 0x7f0800b5
+			public const int masked = 2131230901;
 			
 			// aapt resource value: 0x7f0800a3
 			public const int media_actions = 2131230883;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int message = 2131230896;
+			// aapt resource value: 0x7f0800b3
+			public const int message = 2131230899;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2924,6 +2954,12 @@ namespace CityTower_Android_Client
 			// aapt resource value: 0x7f080013
 			public const int transition_transform = 2131230739;
 			
+			// aapt resource value: 0x7f0800b0
+			public const int txtEmail = 2131230896;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int txtPassword = 2131230897;
+			
 			// aapt resource value: 0x7f08002d
 			public const int uniform = 2131230765;
 			
@@ -2936,8 +2972,8 @@ namespace CityTower_Android_Client
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int visible = 2131230897;
+			// aapt resource value: 0x7f0800b4
+			public const int visible = 2131230900;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3173,19 +3209,22 @@ namespace CityTower_Android_Client
 			public const int notification_template_part_time = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int select_dialog_item_material = 2130968633;
+			public const int Registration_Page = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int select_dialog_multichoice_material = 2130968634;
+			public const int select_dialog_item_material = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int select_dialog_singlechoice_material = 2130968635;
+			public const int select_dialog_multichoice_material = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int support_simple_spinner_dropdown_item = 2130968636;
+			public const int select_dialog_singlechoice_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int tooltip = 2130968637;
+			public const int support_simple_spinner_dropdown_item = 2130968637;
+			
+			// aapt resource value: 0x7f04003e
+			public const int tooltip = 2130968638;
 			
 			static Layout()
 			{
@@ -3913,6 +3952,12 @@ namespace CityTower_Android_Client
 			
 			// aapt resource value: 0x7f0a0161
 			public const int Base_Widget_Design_TabLayout = 2131362145;
+			
+			// aapt resource value: 0x7f0a0185
+			public const int EditTextWhite = 2131362181;
+			
+			// aapt resource value: 0x7f0a0184
+			public const int MyTheme_Login = 2131362180;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int Platform_AppCompat = 2131361822;

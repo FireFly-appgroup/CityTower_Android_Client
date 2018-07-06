@@ -3,12 +3,11 @@ using Android.App;
 using Android.Widget;
 using Android.OS;
 using Android.Support.Design.Widget;
-using Android.Support.V7.App;
 using Android.Views;
 
 namespace CityTower_Android_Client
 {
-	[Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@mipmap/icon", Theme = "@style/Theme.AppCompat.Light.DarkActionBar")]
+	[Activity(Label = "@string/app_name", Icon = "@mipmap/icon", Theme = "@style/Theme.AppCompat.Light.DarkActionBar")]
 	public class MainActivity : Activity
     {
 
@@ -16,7 +15,6 @@ namespace CityTower_Android_Client
 		{
 		    base.OnCreate(savedInstanceState);
 
-		    // Set our view from the "main" layout resource
 		    SetContentView(Resource.Layout.content_main);
 
 		    var textView = FindViewById<TextView>(Resource.Id.textView);
