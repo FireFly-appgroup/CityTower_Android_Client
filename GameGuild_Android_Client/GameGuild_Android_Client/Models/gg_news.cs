@@ -45,23 +45,32 @@ namespace CityTower_Android_Client.Models
         public string link { get; set; }
         public string name { get; set; }
     }
+    [ProtoContract]
     public class mark
     {
+        [ProtoMember(1, IsRequired = true)]
         public int like { get; set; }
+        [ProtoMember(2, IsRequired = true)]
         public int dislike { get; set; }
     }
 
     [ProtoContract]
     public class gg_news_mini
     {
+        [ProtoMember(1, IsRequired = true)]
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string _id { get; set; }
+        [ProtoMember(2, IsRequired = true)]
         [BsonRepresentation(BsonType.ObjectId)]
         public string userID { get; set; }
+        [ProtoMember(3, IsRequired = true)]
         public string name { get; set; }
+        [ProtoMember(4, IsRequired = true)]
         public mark mark { get; set; }
+        [ProtoMember(5, IsRequired = true)]
         public int date_time_utc { get; set; }
+        [ProtoMember(6, IsRequired = true)]
         public string miniature { get; set; }
     }
 }

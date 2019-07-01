@@ -64,6 +64,7 @@
     <Compile Include="Models\gg_calendar.cs" />
     <Compile Include="Models\gg_news.cs" />
     <Compile Include="Models\gg_users.cs" />
+    <Compile Include="Protobuf.cs" />
     <Compile Include="RegistrationActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
